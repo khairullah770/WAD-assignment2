@@ -13,7 +13,7 @@
     />
 
     <!--css file-->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
     <!-- header section starts  -->
@@ -40,12 +40,64 @@
     <div id="closer" class="fas fa-times"></div>
     <!-- navbar  -->
     <nav class="navbar">
-      <a href="index.html">home</a>
-      <a href="shop.html">shop</a>
-      <a href="about.html">about</a>
-      <a href="blog.html">blog</a>
-      <a href="contact.html">contact</a>
+  
+        <a href="index.html">home</a>
+        <a href="shop.html">shop</a>
+        <a href="about.html">about</a>
+        <a href="blog.html">blog</a>
+       <a href="contact.html">contact</a>
+      
     </nav>
+    <!-- shopping cart  -->
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="cornertable.png" alt="" />
+        <div class="content">
+          <h3>morden furniture</h3>
+          <span class="quantity"> 1 </span>
+          <span class="multiply"> x </span>
+          <span class="price"> $140.00 </span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="softchair.jpg" alt="" />
+        <div class="content">
+          <h3>morden furniture</h3>
+          <span class="quantity"> 1 </span>
+          <span class="multiply"> x </span>
+          <span class="price"> $140.00 </span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="chairpro1.jpg" alt="" />
+        <div class="content">
+          <h3>morden furniture</h3>
+          <span class="quantity"> 1 </span>
+          <span class="multiply"> x </span>
+          <span class="price"> $140.00 </span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="banner-1.jpg" alt="" />
+        <div class="content">
+          <h3>morden furniture</h3>
+          <span class="quantity"> 1 </span>
+          <span class="multiply"> x </span>
+          <span class="price"> $140.00 </span>
+        </div>
+      </div>
+
+      <h3 class="total">total : <span>$560.00</span></h3>
+
+      <a href="#" class="btn">checkout</a>
+    </div>
     
     
     <!-- home section starts  -->
@@ -64,6 +116,23 @@
             <img src="home1.png" alt="homepage picture" />
           </div>
         </div>
+        <div class="slide">
+          <div class="content">
+            <span>new arrivals</span>
+            <h3>premium sofas </h3>
+            <p>
+              high quality and pure sofas 
+            </p>
+            <a href="shop.html" class="btn">shop now</a>
+          </div>
+          <div class="image">
+            <img src="blackandwhite.jpg" alt="bed picture in home page " />
+          </div>
+        </div>
+      </div>
+
+      <div id="slide-next" onclick="next()" class="fas fa-angle-right"></div>
+      <div id="slide-prev" onclick="prev()" class="fas fa-angle-left"></div>
     </section>
     <!-- home section ends -->
     <!-- banner section starts  -->
@@ -137,5 +206,7 @@
       </div>
     </section>
     <section class="credit">created by Khairullah khaliq | copyrights!</section>
+   <!--script file-->
+   <script src="my.js"></script>
   </body>
 </html>
