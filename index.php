@@ -243,11 +243,11 @@ if(isset($_POST['login']))
   $total = mysqli_num_rows($data);
   if($total> 0)
   {
-    echo "logiin sucessfully";
+    echo "<script>alert('login successful');</script>";
 
   }
   else{
-    echo "failed";
+    echo "<script>alert('login failed');</script>";
   }
 
 

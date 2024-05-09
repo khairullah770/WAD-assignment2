@@ -79,8 +79,9 @@ if(isset($_POST['register']))
     $data = mysqli_query($conn, $query);
 
     if($data) {
+        echo "<script>alert('Registration successful');</script>";
     } else {
-        echo "Failed to store data.";
+        echo "<script>alert('Registration failed');</script>";
     }
 }
 else
